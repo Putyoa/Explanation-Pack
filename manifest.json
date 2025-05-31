@@ -1,0 +1,49 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "解説用のリソースパックです",
+        "name": "解説用パック",
+        "uuid": "68c0a29c-d344-b2d7-4b75-30b1e92ab18f",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 21, 80 ]
+    },
+    "modules": [
+        {
+            "description": "Example vanilla resource pack",
+            "type": "resources",
+            "uuid": "fc47f040-6412-9436-d948-51ccd76a91d4",
+            "version": [0, 0, 1]
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "default",
+            "name": "デフォルト",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "test",
+            "name": "テスト",
+            "memory_tier": 2
+        }
+    ],
+    "settings": [
+        {
+            "type": "label",
+            "name": "label1",
+            "text": "1つ目のテキスト"
+        },
+        {
+            "type": "input",
+            "default": "https://www.youtube.com/@Putyoa",
+            "text": "登録するなんていかがでしょう",
+            "name": "input1"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "3f1d98ed-5d6a-4165-9d63-36c63e539432",
+            "version": [0, 0, 1]
+        }
+    ]
+}
