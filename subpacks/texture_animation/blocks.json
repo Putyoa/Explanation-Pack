@@ -1,0 +1,14 @@
+{
+   "stone" : {
+      "sound" : "stone",
+      "textures" : {
+         "down" : "no_anim_stone",
+         "up" : "no_anim_stone",
+         
+         "east" : "stone",
+         "north" : "stone",
+         "south" : "stone",
+         "west" : "stone"
+      }
+   }
+}
