@@ -17,13 +17,13 @@
     ],
     "subpacks": [
         {
-            "folder_name": "default",
-            "name": "デフォルト",
+            "folder_name": "texture",
+            "name": "簡単なテクスチャの変更",
             "memory_tier": 1
         },
         {
-            "folder_name": "test",
-            "name": "テスト",
+            "folder_name": "texture_animation",
+            "name": "ブロックのアニメーション&画像の定義",
             "memory_tier": 2
         }
     ],
